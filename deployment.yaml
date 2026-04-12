@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: html-demo
-        image: jashwanthram/html-demo:latest
+        image: prasad1809/html-demo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
