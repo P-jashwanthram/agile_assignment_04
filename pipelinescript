@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "swetab84/html-demo"
+        DOCKER_IMAGE = "jashwanthram/html-demo"
     }
 
     stages {
 
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/swetab-max/docker-example.git'
+                git branch: 'main', url: 'https://github.com/P-jashwanthram/agile_assignment_04.git'
             }
         }
 
